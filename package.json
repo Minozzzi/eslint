@@ -1,0 +1,61 @@
+{
+  "name": "@minozzzi/eslint",
+  "private": false,
+  "version": "0.0.1",
+  "description": "ESLint configuration used by github.com/minozzzi.",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/minozzzi/eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minozzzi/eslint/issues"
+  },
+  "homepage": "https://github.com/minozzzi/eslint#readme",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "react",
+    "node",
+    "next",
+    "typescript"
+  ],
+  "author": "Guilherme Minozzi",
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "typescript": ">=4"
+  },
+  "packageManager": "pnpm@8.5.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
