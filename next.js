@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: [
     'jsx-a11y',
+    'prettier',
     '@typescript-eslint'
   ],
   rules: {
