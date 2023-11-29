@@ -8,7 +8,6 @@ module.exports = {
     'airbnb',
     "prettier",
     'plugin:react-hooks/recommended',
-    "next/core-web-vitals"
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -23,6 +22,11 @@ module.exports = {
     'prettier',
     '@typescript-eslint'
   ],
+  settings: {
+    "import/resolver": {
+      typescript: {},
+    },
+  },
   rules: {
     "prettier/prettier": [
       "error",
