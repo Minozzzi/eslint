@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/minozzzi/eslint/compare/v0.0.4...v0.0.5) (2023-12-04)
+
+
+### Bug Fixes
+
+* publish to npm ([8c3caeb](https://github.com/minozzzi/eslint/commit/8c3caeb2a4ac68722d446c778eac6aee5c397710))
+
 ### [0.0.4](https://github.com/minozzzi/eslint/compare/v0.0.3...v0.0.4) (2023-11-29)
 
 
