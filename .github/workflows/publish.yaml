@@ -72,5 +72,10 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Login to npm
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+
       - name: Publish Configuration to NPM
-        run: pnpm publish --access public --registry=https://registry.npmjs.org/ --//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
+        run: pnpm publish --verbose --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
